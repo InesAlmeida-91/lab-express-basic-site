@@ -1,2 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#home-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 91, 42);
+}
+
+#initial-image {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+button { 
+    font-family: 'Nunito';
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.home-button {
+    margin-top: 550px;
+}
+
+h1 {
+    font-family: 'Nunito';
+    position: absolute;
+    top: 0%; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: white;
+    font-size: 70px; 
+}
+
+p {
+    font-family: 'Nunito';
+    margin: 25px;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+#about-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 91, 42);  
+}
+
+h2 {
+    color: white;
+    margin-top: 0;
+    font-family: 'Nunito';
+    font-size: 50px;   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 200px;
+    height: 300px;
+    margin: 10px 80px;
+}
+
+
+.about-button {
+ text-align: center;   
+ margin: auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+#works-container {
+    background-color:rgb(165, 91, 42);
+}
+
+.albums-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.albums-img {
+    width: 200px;
+    height: 200px;
+}
+
+.works-button {
+    text-align: center;   
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+
